@@ -67,7 +67,7 @@ const Home = () => {
             })
 
           }}
-            className=" px-2 py-1 rounded-2xl shadow-xl bg-slate-500 text-xl md:text-3xl bg-opacity-40 transition-all hover:scale-[1.08] duration-[400ms] active:scale-100 hover:text-white hover:bg-opacity-100  "> Verify</button>
+            className=" px-2 py-1 rounded-2xl shadow-xl bg-slate-500 text-xl md:text-3xl bg-opacity-60 transition-all hover:scale-[1.08] duration-[400ms] active:scale-100 hover:text-white hover:bg-opacity-100  "> Verify</button>
         ) : (
           <Image width={60} height={60} src={'/loader.png'} alt="loader" className="aspect-auto animate-spin" />
         )}
