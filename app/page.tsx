@@ -69,12 +69,12 @@ const Home = () => {
           }}
             className=" px-2 py-1 rounded-2xl shadow-xl bg-slate-500 text-xl md:text-3xl bg-opacity-60 transition-all hover:scale-[1.08] duration-[400ms] active:scale-100 hover:text-white hover:bg-opacity-100  "> Verify</button>
         ) : (
-          <Image width={60} height={60} src={'/loader.png'} alt="loader" className="aspect-auto animate-spin" />
+          <Image priority={true} loading="eager" width={60} height={60} src={'/loader.png'} alt="loader" className="aspect-auto animate-spin" />
         )}
 
       </div>
 
-      <Image className={"z-[-2] absolute bottom-0 left-[50%] translate-x-[-50%] transition-all " }
+      <Image priority={true} loading="eager" className={"z-[-2] absolute bottom-0 left-[50%] translate-x-[-50%] transition-all " }
       style={{
         opacity:isVerifying?('0.37'):('1')
       }}
