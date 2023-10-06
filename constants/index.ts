@@ -1,13 +1,3 @@
-export const WL_WALLETS: string[] = [
-    'asdkfhakdlsfasdjf',
-    'asdkfhakqwerqwerdlsfasdjf',
-    'asdkfhakwerqwerqdlsfasdjf',
-    'asdfasdfasdfa',
-    'asdkfhakdlsfasdjf',
-    'sdfgthdasdkfhafgbkjfghjkkdlsfasdjf',
-    'asdkfhaksgsfbdlsfasdjf',
-    'asdkfhazxvzxckdlsfasdjf',
-    'zxcvzxcvzxcv',
-    'xyudhncvn',
-    'zxcvzxcvz',
-]
+import wallets from './wallets.json'
+
+export const WL_WALLETS: string[] = wallets
